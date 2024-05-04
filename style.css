@@ -1,0 +1,243 @@
+:root{
+    --bs-info-rgb:rgb(13,110,253,0.5);
+}
+
+.nav-link{
+    color: white;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.imagen_carrusel{
+    width:100vw;
+    height: 90vh;
+}
+
+.bloque1{
+    background-color:rgb(0, 5, 61);
+    color: white;
+    padding-top: 1em;
+}
+
+
+
+.video{
+   width:40vw;
+   height:50vh; 
+}
+
+.img_video{
+    display: flex;
+}
+
+.img_redonda{
+    column-gap: 5rem;
+}
+
+.noticias_img{
+    border-radius: 100px;
+    height: 135px;
+    width: 150px;
+
+}
+
+
+
+.campeon{
+    gap:3em;
+    display:flex;
+ }
+
+ .card{
+    width: 30vw;
+    height:45vh;
+}
+
+
+.card-img-top{
+    width: 18rem;
+    width: 20vw;
+    height:30vh;
+ }
+
+
+.card-header{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.bloque2{
+    color: black;
+}
+
+.img_mas{
+   margin-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.mapa{
+    width:80vw; 
+    height:80vh; 
+}
+
+.btn_buscar{
+    width:40vw; 
+}
+
+.bloque4{
+    row-gap: 12rem;
+}
+
+.bg-info {
+    --bs-bg-opacity: .1;
+    background-color:var(--bs-info-rgb) !important;
+  }
+
+.combo{
+    gap:5px;
+}
+
+.textarea{
+    width:98%;
+}
+
+.rag_logo_rs{
+    display: grid;
+    width: 60px;
+    height: 60px;
+  }
+
+
+  .logo_pie{
+    height: 150px;
+    width: 150px;
+  }
+
+  .rs_pie{
+    padding-top: 10px;
+}
+.rag_text_icono{
+    display: flex;
+}
+
+
+/*********RESPONSIVE***********/
+
+@media(width<=1000px){
+  
+
+    .imagen_carrusel{
+        width:100vw;
+        height: 40vh;
+    }
+
+    .nav{
+
+        background-color: rgba(156, 22, 22, 0.103);
+        text-align: center;
+
+    }
+
+    h2{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .bloque1{
+        display: grid;
+    }
+
+    .video{
+        width:80vw;
+        height:40vh; 
+    }
+
+    .texto-video{
+        width:80vw;
+    }
+
+    .img_video{
+        display: grid;
+
+    }
+
+    .img_redonda{
+        width: 90vw;
+    }
+
+    .img-thumbnail{
+        height: 150px;
+    }
+
+    .campeon{
+        display: grid;
+    }
+
+    
+     .card{
+        width: 70vw;
+        height: 50vh;
+    }
+
+    .card-img-top{
+        width: 60vw;
+        height: 40vh;
+     }
+    
+
+     .img_mas{
+        margin-top: 50px;
+         width: 50px;
+         height: 50px;
+     }
+     
+
+    .mapa{
+        width:90vw; 
+        height:50vh; 
+    } 
+
+    .combo{
+        width: 98%;
+        display: grid;
+        gap:20px;
+    }
+
+
+ 
+}
+
+@media(width<=600px){
+
+    .imagen_carrusel{
+        width:100vw;
+        height: 30vh;
+    }
+
+    .img-thumbnail{
+        height: 100px;
+    }
+
+    .card{
+        width: 70vw;
+        height: 30vh;
+    }
+
+    .card-img-top{
+        width: 60vw;
+        height:20vh;
+     }
+
+     .img_mas{
+        margin-top: 25px;
+         width: 25px;
+         height: 25px;
+     }
+
+}
